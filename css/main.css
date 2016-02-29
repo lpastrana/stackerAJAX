@@ -1,6 +1,7 @@
 .container {
 	margin: 3em auto;
 	width: 600px;
+	background-color: lightgray;
 }
 
 .hidden {
@@ -35,13 +36,22 @@
 	margin-left: 3em;
 }
 
-.result {
+.result, .outcome {
 	border: 1px solid black;
-	padding: 5px;
+	padding: 5px 4px;
 	margin: 0 auto 1em auto;
 }
 
 .error {
 	background-color: #F78181;
 	padding: 1em;
+}
+
+.results-container, .outcome-container {
+	margin: 6px 0;
+}
+
+.search-results, .search-conclusion {
+	padding: 6px 0;
+	font-size: 1.25em;
 }
